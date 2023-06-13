@@ -1,16 +1,16 @@
-import "./skills.css";
+import "./stack.css";
 import Primary from "./Primary";
 import Secondary from "./Secondary";
 import { motion } from "framer-motion";
 
-const Skills = ({ setSelectedPage }) => {
+const Stack = ({ setSelectedPage }) => {
   return (
-    <section className="skills section" id="skills">
+    <section className="stack section" id="stack">
       <motion.div onViewportEnter={() => setSelectedPage("stack")}>
         <h2 className="section__title">Stack</h2>
         <span className="section__subtitle">My go-to tools</span>
 
-        <div className="skills__container container grid">
+        <div className="stack__container container grid">
           <Primary />
           <Secondary />
         </div>
@@ -19,4 +19,4 @@ const Skills = ({ setSelectedPage }) => {
   );
 };
 
-export default Skills;
+export default Stack;

@@ -1,4 +1,4 @@
-import CV from "../../assets/CV_BartoszMakara.pdf";
+import CV from "../../assets/BartoszMakara-CV-FrontEnd.pdf";
 import "./footer.css";
 
 const Footer = () => {
@@ -26,21 +26,21 @@ const Footer = () => {
 
       <div className="footer__social">
         <a
-          href="https://intagram.com"
+          href="https://github.com/bartosz-makara"
           className="footer__social-link"
           target="_blank"
         >
           <i class="bx bxl-instagram"></i>
         </a>
         <a
-          href="https://intagram.com"
+          href="https://github.com/bartosz-makara"
           className="footer__social-link"
           target="_blank"
         >
           <i class="bx bxl-github"></i>
         </a>
         <a
-          href="https://intagram.com"
+          href="https://github.com/bartosz-makara"
           className="footer__social-link"
           target="_blank"
         >

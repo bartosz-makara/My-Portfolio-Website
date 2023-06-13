@@ -11,14 +11,14 @@ const Social = () => {
         <i class="uil uil-github-alt"></i>
       </a>
       <a
-        href="https://intagram.com"
+        href="https://github.com/bartosz-makara"
         className="home__social-icon"
         target="_blank"
       >
         <i class="uil uil-instagram"></i>
       </a>
       <a
-        href="https://intagram.com"
+        href="https://github.com/bartosz-makara"
         className="home__social-icon"
         target="_blank"
       >

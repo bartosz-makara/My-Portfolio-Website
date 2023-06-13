@@ -5,7 +5,7 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import ScrollUp from "./components/scrollup/ScrollUp";
-import Skills from "./components/skills/Skills";
+import Stack from "./components/stack/Stack";
 import Portfolio from "./components/portfolio/Portfolio";
 import { useEffect, useState } from "react";
 
@@ -37,7 +37,7 @@ function App() {
       <main className="main">
         <Home setSelectedPage={setSelectedPage} />
         <About setSelectedPage={setSelectedPage} />
-        <Skills setSelectedPage={setSelectedPage} />
+        <Stack setSelectedPage={setSelectedPage} />
         <Portfolio setSelectedPage={setSelectedPage} />
         <Contact setSelectedPage={setSelectedPage} />
       </main>

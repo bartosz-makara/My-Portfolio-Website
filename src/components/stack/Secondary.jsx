@@ -1,4 +1,4 @@
-const skills = [
+const stack = [
   {
     id: 1,
     name: "GCP",
@@ -33,21 +33,21 @@ const skills = [
 
 const Secondary = () => {
   return (
-    <div className="skills__content">
-      <h3 className="skills__title">Secondary Tools</h3>
+    <div className="stack__content">
+      <h3 className="stack__title">Secondary Tools</h3>
 
-      <div className="skills__box">
-        <div className="skills__group">
-          {skills.map((skill, index) => {
-            if (skill.id < 4) {
+      <div className="stack__box">
+        <div className="stack__group">
+          {stack.map((tool, index) => {
+            if (tool.id < 4) {
               return (
-                <div className="skills__data" key={index}>
+                <div className="stack__data" key={index}>
                   <i class="bx bx-badge-check"></i>
 
                   <div>
-                    <h3 className="skills__name">{skill.name}</h3>
+                    <h3 className="stack__name">{tool.name}</h3>
                     {/* <i class="bx bxl-html5"></i> */}
-                    <span className="skills__level">{skill.level}</span>
+                    <span className="stack__level">{tool.level}</span>
                   </div>
                 </div>
               );
@@ -55,17 +55,17 @@ const Secondary = () => {
           })}
         </div>
 
-        <div className="skills__group">
-          {skills.map((skill, index) => {
-            if (skill.id > 3) {
+        <div className="stack__group">
+          {stack.map((tool, index) => {
+            if (tool.id > 3) {
               return (
-                <div className="skills__data" key={index}>
+                <div className="stack__data" key={index}>
                   <i class="bx bx-badge-check"></i>
 
                   <div>
-                    <h3 className="skills__name">{skill.name}</h3>
+                    <h3 className="stack__name">{tool.name}</h3>
                     {/* <i class="bx bxl-html5"></i> */}
-                    <span className="skills__level">{skill.level}</span>
+                    <span className="stack__level">{tool.level}</span>
                   </div>
                 </div>
               );

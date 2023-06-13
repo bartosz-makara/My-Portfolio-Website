@@ -8,10 +8,12 @@ export const projectsData = [
   {
     id: 1,
     image: Work4,
-    title: "UI + Database",
+    title: "Responsive UI + Database",
     description: "React, Typescript, TailwindCSS, NextJS, Prisma, Supabase",
     category: "originals",
     github: "https://github.com/bartosz-makara/Blog-Project",
+    website: "https://blog-project-v2.vercel.app",
+    deployed: true,
   },
   {
     id: 2,
@@ -21,6 +23,8 @@ export const projectsData = [
       "React, Typescript, TailwindCSS, NextJS, Redux, Stripe, Sanity",
     category: "originals",
     github: "https://github.com/bartosz-makara/E-Commerce-Project",
+    website: "https://e-commerce-project-coral.vercel.app",
+    deployed: true,
   },
   {
     id: 3,
@@ -28,7 +32,9 @@ export const projectsData = [
     title: "Responsive UI",
     description: "React, Javascript, CSS",
     category: "originals",
-    github: "",
+    github: "https://github.com/bartosz-makara/My-Portfolio-Website",
+    website: "/",
+    deployed: true,
   },
   {
     id: 4,
@@ -37,14 +43,18 @@ export const projectsData = [
     description: "React, Typescript, TailwindCSS",
     category: "originals",
     github: "https://github.com/bartosz-makara/SPA-Project-1",
+    website: "https://spa-project-virid.vercel.app",
+    deployed: true,
   },
   {
     id: 5,
     image: Work5,
-    title: "UI + Auth",
-    description: "React, Typescript, TailwindCSS, NextJS, Firebase",
+    title: "Responsive UI + Auth + Subscription",
+    description: "React, Typescript, TailwindCSS, NextJS, Firebase, Stripe",
     category: "clones",
-    github: "",
+    github: "https://github.com/bartosz-makara/Netflix-Reconstructed",
+    website: "",
+    deployed: false,
   },
 ];
 
