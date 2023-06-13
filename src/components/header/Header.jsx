@@ -3,7 +3,7 @@ import "./header.css";
 import Link from "./Link";
 
 const Header = ({ selectedPage, setSelectedPage }) => {
-  const pages = ["Home", "About", "Stack", "Portfolio", "Contact"];
+  const pages = ["Home", "Stack", "About", "Portfolio", "Contact"];
 
   const [showMenu, setShowMenu] = useState(false);
 

@@ -36,8 +36,8 @@ function App() {
       />
       <main className="main">
         <Home setSelectedPage={setSelectedPage} />
-        <About setSelectedPage={setSelectedPage} />
         <Stack setSelectedPage={setSelectedPage} />
+        <About setSelectedPage={setSelectedPage} />
         <Portfolio setSelectedPage={setSelectedPage} />
         <Contact setSelectedPage={setSelectedPage} />
       </main>
