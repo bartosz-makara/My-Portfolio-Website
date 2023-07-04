@@ -3,31 +3,37 @@ const stack = [
     id: 1,
     name: "GCP",
     level: "Beginner",
+    icon: "bx bxl-google-cloud",
   },
   {
     id: 2,
     name: "NodeJS",
     level: "Beginner",
+    icon: "bx bxl-nodejs",
   },
   {
     id: 3,
-    name: "Express",
+    name: "Git",
     level: "Beginner",
+    icon: "bx bxl-git",
   },
   {
     id: 4,
     name: "MongoDB",
     level: "Beginner",
+    icon: "bx bxl-mongodb",
   },
   {
     id: 5,
-    name: "Git/Github",
+    name: "Github",
     level: "Beginner",
+    icon: "bx bxl-github",
   },
   {
     id: 6,
     name: "PostgreSQL",
     level: "Beginner",
+    icon: "bx bxl-postgresql",
   },
 ];
 
@@ -42,7 +48,7 @@ const Secondary = () => {
             if (tool.id < 4) {
               return (
                 <div className="stack__data" key={index}>
-                  <i class="bx bx-badge-check"></i>
+                  <i class={tool.icon}></i>
 
                   <div>
                     <h3 className="stack__name">{tool.name}</h3>
@@ -60,7 +66,7 @@ const Secondary = () => {
             if (tool.id > 3) {
               return (
                 <div className="stack__data" key={index}>
-                  <i class="bx bx-badge-check"></i>
+                  <i class={tool.icon}></i>
 
                   <div>
                     <h3 className="stack__name">{tool.name}</h3>

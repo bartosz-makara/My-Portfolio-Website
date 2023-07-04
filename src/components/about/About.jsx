@@ -17,11 +17,11 @@ const About = ({ setSelectedPage }) => {
             <Info />
 
             <p className="about__description">
-              {`I started learning programming back in 2006, when it was still a little clunky and boring. Drawing algorithm diagrams on paper, writing loops in TurboPascal and C++... In 2012, afraid to get stuck behind a monitor and miss out on life, I chose a different path. It made me a wholesome and reliable person I'm proud to be.`}
+              {`I embarked on my programming journey in 2006, during a time when the field was still nascent and somewhat uninspiring. I vividly remember sketching algorithm diagrams on paper and writing loops in languages like TurboPascal... Eventually, I made a conscious decision to explore a different path, driven by a desire to avoid being confined to a monitor and to embrace life's diverse experiences. This detour has contributed to my growth as a well-rounded individual, instilling in me a sense of reliability and integrity that I take great pride in.`}
             </p>
             <br />
             <p className="about__description">
-              {`When it comes to tech, I've never really got out of the loop but for the last two years I've been consistently coding. At first it was just nostalgia, but eventually I started to wonder - what the life would look like if I kept going back then? I guess the IT industry is my next great adventure.`}
+              {`Despite my temporary departure, my fascination with technology never waned. Over the past three years, I have immersed myself in coding consistently, reigniting the passion and nurturing my inner nerd.`}
             </p>
 
             <a href="#contact" className="button button--flex">
